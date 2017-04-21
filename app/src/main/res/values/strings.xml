@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Заметки</string>
+    <string name="text_main">Ваши заметки</string>
+    <string name="prodolzit">Продолжить</string>
+    <string name="gotovo">Готово</string>
+    <string name="sett">Настройки</string>
+</resources>

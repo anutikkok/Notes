@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/menu_save"
+        android:orderInCategory="100"
+        android:title="Сохранить заметку"
+        android:icon="@drawable/check"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_del"
+        android:orderInCategory="100"
+        android:title="Удалить заметку"
+        android:icon="@drawable/bin"
+        app:showAsAction="always" />
+</menu>
